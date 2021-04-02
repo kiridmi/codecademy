@@ -1,10 +1,10 @@
 // Write function below
 const factorial = number => {
     result = number;
-    for (i=number; i>0; i--) {
+    for (i=number; i>1; i--) {
       result = result * (i-1);
     }
     return result;
   }
   
-  factorial(6);
+  console.log(`The factorial of 6 is ${factorial(6)}`);
