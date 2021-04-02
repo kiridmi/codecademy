@@ -1,0 +1,89 @@
+body {
+    margin: 0 10%;
+    font-family: Rubik;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Rubik;
+}
+
+h2 {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+}
+
+.main {
+    border: 3px solid #2F4F4F;
+    width: 100%;
+    position: relative;
+    margin: 10px;
+}
+
+.container {
+    border: 0 solid black;  
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container div {
+    width: 23%;
+    display: inline-block;
+    margin: 2px;
+}
+
+#color1 {
+    background-color: #2F4F4F;
+    color: white;
+}
+
+#color2 {
+    background-color: #89FABA;
+    color: black;
+}
+
+#color3 {
+    background-color: #FBC8D4;
+    color: black;
+}
+
+#color4 {
+    background-color: #169494;
+    color: white;
+}
+
+.container .font {
+    width: auto;
+    font-size: 20px;
+}
+
+.source-sans-pro {
+    font-family: "Source Sans Pro";
+}
+
+.rubik {
+    font-family: Rubik;
+}
+
+.dancing {
+    font-family: "Dancing Script";
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.container .styles {
+    clear: right;
+    width: 100%;
+    text-align: left;
+}

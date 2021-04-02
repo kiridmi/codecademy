@@ -1,0 +1,185 @@
+html {
+    font-family: "Cormorant Unicase", serif;
+    font-size: 16px;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+/* HEADER */
+
+header {
+    height: 70px;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: darkslategray;
+}
+a:visited {
+    color: darkslategray;
+}
+a:hover {
+    color: darkred;
+}
+a:active {
+    color: blue;
+}
+
+nav {
+    display: flex;
+}
+
+header img {
+    height: 70px;
+    margin-left: 15px;
+}
+
+header span {
+    margin: auto 20px;
+    font-size: 2em;
+}
+
+/* MAIN CONTENT */
+
+.content {
+    margin: auto;
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.content h2 {
+    margin: auto;
+    text-align: center;
+}
+
+#mission {
+    background-image: url("images/backgrd.jpg");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+#portfolio {
+    align-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    max-width: 400px;
+    margin: 20px;
+    border: 2px solid darkslategray;
+}
+
+.product img {
+    width: 100%;
+}
+
+#team {
+    background-image: url("images/empl-bckg.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.employee {
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.employee img {
+    height: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1300px) {
+    header {
+        height: 100px;
+    }
+
+    header img {
+        display: none;
+    }
+
+    .employee {
+        max-width: 30%;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .employee img {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .head-container {
+        text-align: center;
+        display: block;
+    }
+
+    nav {
+        display: block;
+    }
+
+    #team {
+        background-image: none;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .employees {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    
+}
